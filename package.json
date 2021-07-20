@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "hardhat test",
+    "migrate-bsc-testnet": "hardhat run scripts/sample-script.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "hardhat": "^2.4.3"
+  }
+}
